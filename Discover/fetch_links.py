@@ -39,6 +39,9 @@ for i in range(2, 21):
         all_urls.extend(urls)
         #time.sleep(3)
 
-pprint.pprint(all_urls)
-count = len(all_urls)
-print(f"Total URLs: {count}")
+#pprint.pprint(all_urls)
+#count = len(all_urls)
+with open("all-property-links.txt", "a") as file:
+    for url in all_urls:
+        file.write(url + "\n")
+#print(f"Total URLs: {count}")

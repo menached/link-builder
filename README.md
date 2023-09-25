@@ -1,1 +1,1 @@
-Create a list of property links to be targetted.
+Create a list of property links to be imported.
